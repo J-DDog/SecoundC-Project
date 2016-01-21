@@ -14,7 +14,7 @@ SecoundAppController::SecoundAppController()
 
 void SecoundAppController:: start()
 {
-	string apples; //Defining apples
+	string apples; //Declaring apples
 	apples = out.getResponse("How many apples\n:"); //Getting how many apples and storing it in apples variable
 	out.message("There are " + apples + " Apples in the Tree.\n"); //Putting it together in the output
 }
