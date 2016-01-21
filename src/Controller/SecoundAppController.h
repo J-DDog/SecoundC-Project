@@ -15,11 +15,14 @@ using namespace std;
 class SecoundAppController
 {
 public:
+	//Constructor
 	SecoundAppController();
+	//Member Methods
 	void start();
 	void setCount(int);
 	int getCount();
 private:
+	//Data Members
 	ConsoleIO out;
 	int count;
 

@@ -16,14 +16,14 @@ using namespace std;
 class ConsoleIO
 {
 public:
+	//Constructor
 	ConsoleIO();
 
+	//Member Methods
 	void message(string message);
 	void message(string message, bool doesEndLine);
 
 	string getResponse(string message);
-private:
-
 };
 
 #endif /* VIEW_CONSOLEOUT_H_ */

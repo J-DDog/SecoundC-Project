@@ -7,7 +7,7 @@
 
 #include "ConsoleIO.h"
 
-ConsoleIO::ConsoleIO()
+ConsoleIO::ConsoleIO() //Constructing like normal
 {
 
 }
@@ -23,7 +23,7 @@ void ConsoleIO:: message(string message, bool doesEndLine)
 	{
 		cout << message << endl; // writing to the console and ending line
 	}
-	else // if opration failed
+	else // if operation failed
 	{
 		cout << message; //Writing to console but not ending the line
 	}
